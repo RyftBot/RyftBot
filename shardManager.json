@@ -1,0 +1,14 @@
+{
+  "core": {
+    "totalShards": 1,
+    "ie-1": [
+      1
+    ]
+  },
+  "premium": {
+    "totalShards": 1,
+    "ie-1": [
+      1
+    ]
+  }
+}
