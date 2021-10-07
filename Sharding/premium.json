@@ -1,6 +1,12 @@
 {
-  "totalShards": 1,
-  "ie-1": [
-    1
-  ]
+	"totalShards": 1,
+	"hosts": {
+		"Callum": {
+			"machineId": 0,
+			"master": true,
+			"shardList": [
+				0
+			]
+		}
+	}
 }
