@@ -2,7 +2,7 @@
 	"totalShards": 1,
 	"hosts": {
 		"Callum": {
-      "machineId": 0,
+			"machineId": 0,
 			"master": true,
 			"shardList": [
 				1
