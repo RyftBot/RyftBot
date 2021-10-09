@@ -3,6 +3,7 @@
   "Yes",
   "Maybe",
   "Most likely",
+  "I'm not sure",
   "Outlook good",
   "It is certain",
   "Very doubtful",
@@ -20,6 +21,5 @@
   "Outlook not so good",
   "Reply hazy try again",
   "Better not tell you now",
-  "Concentrate and ask again",
-  "I'm not sure"
+  "Concentrate and ask again"
 ]
