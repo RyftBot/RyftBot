@@ -1,1 +1,153 @@
-[]
+[
+  {
+    "name": "help",
+    "description": "View Ryft's commands!",
+    "options": [
+      {
+        "type": 3,
+        "name": "filter",
+        "description": "Command or Category to view!",
+        "required": false
+      }
+    ]
+  },
+  {
+    "name": "userinfo",
+    "description": "View information about a user or member!",
+    "options": [
+      {
+        "type": 6,
+        "name": "user",
+        "description": "View a specific user.",
+        "required": false
+      }
+    ]
+  },
+  {
+    "name": "serverinfo",
+    "description": "View information about a server!",
+    "options": []
+  },
+  {
+    "name": "botinfo",
+    "description": "View information about Ryft!",
+    "options": []
+  },
+  {
+    "name": "invite",
+    "description": "Add Ryft to your server!",
+    "options": []
+  },
+  {
+    "name": "support",
+    "description": "Get an invite to our support discord!",
+    "options": []
+  },
+  {
+    "name": "tictactoe",
+    "description": "Play the classic Tic-Tac-Toe game!",
+    "options": [
+      {
+        "type": 6,
+        "name": "user",
+        "description": "Who do you want to play against?",
+        "required": true
+      }
+    ]
+  },
+  {
+    "name": "balance",
+    "description": "View your's or another user's balance!",
+    "options": [
+      {
+        "type": 6,
+        "name": "user",
+        "description": "View a specific user's balance.",
+        "required": false
+      }
+    ]
+  },
+  {
+    "name": "daily",
+    "description": "Claim your daily income!",
+    "options": []
+  },
+  {
+    "name": "monthly",
+    "description": "Claim your monthly income!",
+    "options": []
+  },
+  {
+    "name": "leaderboard",
+    "description": "View the economy leaderboard!!",
+    "options": []
+  },
+  {
+    "name": "pay",
+    "description": "Give some of your money to another user!",
+    "options": [
+      {
+        "type": 6,
+        "name": "user",
+        "description": "Who are you paying?",
+        "required": true
+      },
+      {
+        "type": 3,
+        "name": "amount",
+        "description": "How much would you like to give them?",
+        "required": true
+      }
+    ]
+  },
+  {
+    "name": "ping",
+    "description": "View the bot's latency!",
+    "options": []
+  },
+  {
+    "name": "avatar",
+    "description": "View a user's avatar!",
+    "options": [
+      {
+        "type": 6,
+        "name": "user",
+        "description": "View a specific user.",
+        "required": false
+      }
+    ]
+  },
+  {
+    "name": "afk",
+    "description": "Set yourself as AFK!",
+    "options": [
+      {
+        "type": 3,
+        "name": "message",
+        "description": "Optionally add a message for going AFK.",
+        "required": false
+      }
+    ]
+  },
+  {
+    "name": "vote",
+    "description": "Vote for Ryft across several bot lists!",
+    "options": []
+  },
+  {
+    "name": "Ban User",
+    "type": 2
+  },
+  {
+    "name": "Kick User",
+    "type": 2
+  },
+  {
+    "name": "Delete Message",
+    "type": 3
+  },
+  {
+    "name": "Pin Message",
+    "type": 3
+  }
+]
