@@ -212,7 +212,23 @@
                 "type": 3,
                 "name": "icon",
                 "description": "The character or emoji you would like to use. Leave blank to reset to default.",
-                "required": false
+                "required": true
+              },
+              {
+                "type": 4,
+                "name": "position",
+                "description": "Show the icon before or after the balance.",
+                "required": true,
+                "choices": [
+                  {
+                    "name": "Left",
+                    "value": 1
+                  },
+                  {
+                    "name": "Right",
+                    "value": 2
+                  }
+                ]
               }
             ]
           }
